@@ -8,9 +8,12 @@ int main()
     ExpressionParser ep;
     Reducer reducer;
     std::string input;
-    while (input != "exit") {
+    while (true) {
         std::cout << "Enter expression:" << std::endl;
         std::getline(std::cin, input);
+        if (input == "exit") {
+            return 0;
+        }
         if (input == "help") {
             std::cout << "Therm:        uppercase letter" << std::endl;
             std::cout << "Function:     *(<name>)(<var1>,<var2>,...) where name is uppercase letters and vars are lowercase letters" << std::endl;
