@@ -1,0 +1,312 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# AWS User-specific
+.idea/**/aws.xml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# SonarLint plugin
+.idea/sonarlint/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# idea folder, uncomment if you don't need it
+# .idea
+
+*~
+.\#*
+\#*#
+
+*.py[co]
+__pycache__/
+/*.egg
+/*.egg-info/
+*.egg-info/
+/*.egg-link
+/.eggs/
+/.pytest_cache/
+/pip-wheel-metadata/
+/.coverage
+/.tox
+
+# /
+/AES.pyd
+/AES.so
+/*.bak
+/build/
+/dist/
+/*.patch
+/MANIFEST
+
+# Temporary vim files
+*.swp
+
+# Temporary rope files
+.ropeproject
+
+# PyCharm settings
+.idea
+
+# Spyder settings
+.spyproject
+
+# /tests/
+/tests/build*
+/tests/dist*
+/tests/logdict*.log
+/tests/test*.exe
+/tests/warn*.txt
+/tests/python_exe.build
+/tests/report.xml
+
+/tests/**/build/
+/tests/**/dist/
+
+# Ignore generated spec-files
+# NB: You can still add .spec-files to be tracked using `git add`
+/tests/old_suite/**/*.spec
+
+# /tests/functional/data
+/tests/functional/data/sphinx/_build
+
+# /tests/old_suite/basic/
+/tests/old_suite/basic/python_exe.build
+
+# /tests/old_suite/basic/ctypes/
+/tests/old_suite/basic/ctypes/testctypes.dylib
+/tests/old_suite/basic/ctypes/testctypes.so
+/tests/old_suite/basic/ctypes/testctypes-win.dll
+/tests/old_suite/basic/ctypes/testctypes-win.exp
+/tests/old_suite/basic/ctypes/testctypes-win.obj
+/tests/old_suite/basic/ctypes/testctypes-win.lib
+
+tests/old_suite/basic/test_pyz_as_external_file.exe.pkg
+
+# /tests/old_suite/libraries/
+/tests/old_suite/libraries/tinysample.png
+
+/old/e2etests/common/hanoi[1-9]
+
+# /doc/
+/doc/source/_definitions.txt
+/doc/_pyi*-options.tmp
+/doc/man/_pyi*.tmp
+/doc/_build
+
+# Bootloader source
+/bootloader/.lock-waf*
+/bootloader/.lock-wscript
+/bootloader/build/
+/bootloader/_sdks
+/bootloader/.vagrant/
+/bootloader/waf-*/
+/bootloader/waf3-*/
+/bootloader/.waf-*/
+/bootloader/.waf3-*/
+
+# Exclude all but the standard bootloaders
+PyInstaller/bootloader/*
+!PyInstaller/bootloader/Darwin-64bit
+!PyInstaller/bootloader/Linux-32bit-intel/
+!PyInstaller/bootloader/Linux-64bit-intel/
+!PyInstaller/bootloader/Windows-32bit-intel/
+!PyInstaller/bootloader/Windows-64bit-intel/
+!PyInstaller/bootloader/images/
+
+# Mac OS X
+.DS_store
+
+# Windows debug symbols
+*.pdb
+
+# py.test cache folder
+.cache
+*.prof
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode projects
+*.code-workspace
+*.vscode
+
+# Coverage
+.coverage
+htmlcov
